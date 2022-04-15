@@ -10,8 +10,8 @@ bot ini adalah bot multi device jika ada bug mohon di maklumi ya kak🙏🏻
 「 INFO BOT 」 ꢁ
 ֗ ៵ ⬡ ꢁ Lib* : baileys md
 ֗ ៵ ⬡ ꢁ prefix* : !./$#&@?
-֗ ៵ ⬡ ꢁ nama bot* : vraabot-MD
-֗ ៵ ⬡ ꢁ nama owner* : kiki vz.
+֗ ៵ ⬡ ꢁ nama bot* : nanat-botz
+֗ ៵ ⬡ ꢁ nama owner* : Bimo b4u.
 
 >selamat menunaikan ibadah puasa<
 `
@@ -330,8 +330,8 @@ return`
 exports.sewabot  = (ownernomer) => {
 	return`
 ┌── 「 *Sewa Bot* 」
-├ Sewa 15k/manen
-├ Sewa 5k/Minggu
+├ Sewa 13/manen
+├ Sewa 6k/Minggu
 ├ sewa 10k/bulan
 └───────
 
@@ -342,7 +342,7 @@ exports.sewabot  = (ownernomer) => {
 └───────
 
 Contact person Owner :
-wa.me/6283808840711
+wa.me/6285895873474
 `
 }
 
