@@ -1,7 +1,7 @@
 {
-  "name": "vraabotV2",
+  "nama" : "nanatbotz" ,
   "version": "1.2.3",
-  "description": "WhatsApp Using Lib Baileys Multi Device",
+  "deskripsi" : "WhatsApp Menggunakan Lib Baileys Multi Device" ,
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
