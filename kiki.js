@@ -904,7 +904,7 @@ let buttonsVote = [
 
             let buttonMessageVote = {
                 text: teks_vote,
-                footer: kiki.user.name,
+                footer: kiki.bimo.botz,
                 buttons: buttonsVote,
                 headerType: 1
             }
@@ -987,7 +987,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
             let buttonMessageDevote = {
                 text: teks_vote,
-                footer: kiki.user.name,
+                footer: kiki.bimo.botz,
                 buttons: buttonsDevote,
                 headerType: 1,
                 mentions: menvote
@@ -1020,7 +1020,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 *${prefix}hapusvote* - untuk menghapus vote
 
 
-©${kiki.user.id}
+©${kiki.bimo.botz}
 `
 kiki.sendTextWithMentions(m.chat, teks_vote, m)
 break
@@ -1151,7 +1151,7 @@ break
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 838-0884-0711'
+                                    phoneNumber: '+62 858-9587-3474'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1190,7 +1190,7 @@ break
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 838-0884-0711'
+                                    phoneNumber: '+62 858-9587-3474'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1209,7 +1209,7 @@ break
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
-                      kiki.send5ButImg(yoi, txt, kiki.user.name, global.thumb, btn)
+                      kiki.send5ButImg(yoi, txt, kiki.bimo.botz, global.thumb, btn)
 		}
 		m.reply('Sukses Broadcast')
             }
@@ -1482,7 +1482,7 @@ break
  Channel : ${anu.author.url}
  Description : ${anu.description}
  Url : ${anu.url}`,
-                    footer: kiki.user.name,
+                    footer: kiki.bimo.botz,
                     buttons: buttons,
                     headerType: 4
                 }
